@@ -8,142 +8,166 @@
 </head>
 <body>
     <header>
-        <div class="inative">
-            <div class="inative-img">
+        <!-- div → section -->
+        <section class="inative">
+            <!-- div → figure (container de imagens) -->
+            <figure class="inative-img">
                 <img src="" alt="img1">
                 <img src="" alt="img2">
                 <img src="" alt="img3">
-                <div class="nav-intave-img">
-                    <div class="bolinhas"></div>
-                    <div class="bolinhas"></div>
-                    <div class="bolinhas"></div>
-                </div>
-            </div>
-            <div class="btn-inative-right"><button>></button></div>
-            <div class="btn-inative-left"><button>></button></div>
-
-            <button class="inative-btn">Click</button>
-        </div>
-
-        <div class="active">
-            <div class="active-nav-bar">
-                <h1>VOYAJ</h1>
-                <nav>
-                    <ul>
-                        <li>IMG</li>
-                        <li>SERVICE</li>
-                        <li>CONTACT US</li>
-                    </ul>
+                <!-- div → nav (elemento de navegação) -->
+                <nav class="nav-intave-img">
+                    <!-- div → span (elementos inline) -->
+                    <span class="bolinhas"></span>
+                    <span class="bolinhas"></span>
+                    <span class="bolinhas"></span>
                 </nav>
-            </div>
+            </figure>
+            <!-- removido wrapper div desnecessário -->
+            <button class="btn-inative-right">></button>
+            <!-- removido wrapper div desnecessário -->
+            <button class="btn-inative-left">></button>
+            <button class="inative-btn">Click</button>
+        </section>
 
-            <div class="active-img">
+        <!-- div → section -->
+        <section class="active">
+            <!-- div → nav (barra de navegação) + removido <nav> interno redundante -->
+            <nav class="active-nav-bar">
+                <h1>VOYAJ</h1>
+                <ul>
+                    <li>IMG</li>
+                    <li>SERVICE</li>
+                    <li>CONTACT US</li>
+                </ul>
+            </nav>
+
+            <!-- div → figure (container de imagens) -->
+            <figure class="active-img">
                 <img src="" alt="img1">
                 <img src="" alt="img2">
                 <img src="" alt="img3">
                 <button class="active-btn">MORE</button>
-            </div>
-
-
-        </div>
-
-        
-        
+            </figure>
+        </section>
     </header>
+
     <main>
-        <div class="img-1">
-            <div class="background">
+        <!-- div → section -->
+        <section class="img-1">
+            <!-- div → figure (container de imagem) -->
+            <figure class="background">
                 <img src="" alt="img-main">
-            </div>
+            </figure>
             <button class="inative-btn">Click</button>
-            <div class="porcentagem-info">
+            <!-- div → aside (informação complementar) -->
+            <aside class="porcentagem-info">
                 <h4>50%</h4>
                 <h4>150%</h4>
                 <h4>250%</h4>
-            </div>
-            <div class="text-img-1">
+            </aside>
+            <!-- div → article (bloco de conteúdo/texto) -->
+            <article class="text-img-1">
                 <h1>Titulo</h1>
                 <h4>Titulo 2</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit aspernatur optio, incidunt sed sapiente est numquam excepturi</p>
-            </div>
-        </div>
+            </article>
+        </section>
 
-        <div class="img-2">
+        <!-- div → section -->
+        <section class="img-2">
             <button class="inative-btn">Click</button>
-            <div class="main-img">
+            <!-- div → figure (container de imagem) -->
+            <figure class="main-img">
                 <img src="" alt="main-img">
-            </div>
+            </figure>
             <marquee behavior="scroll" direction="left"><img src="./img/airplane-3-svgrepo-com.svg" alt="airplane">TEXTO</marquee>
             <marquee behavior="scroll" direction="right"><img src="./img/airplane-3-svgrepo-com.svg" alt="airplane">TEXTO</marquee>
-        </div>
+        </section>
 
-        <div class="service">
+        <!-- div → section -->
+        <section class="service">
             <button class="inative-btn">Click</button>
-            <div class="img-service">
+            <!-- div → figure (container de imagem) -->
+            <figure class="img-service">
                 <img src="" alt="">
-            </div>
-            <div class="text-service">
+            </figure>
+            <!-- div → article (bloco de conteúdo/texto) -->
+            <article class="text-service">
                 <h1>SERVICE</h1>
                 <ul>
                     <li>Service 1</li>
                     <li>Service 2</li>
                     <li>Service 3</li>
                 </ul>
-            </div>
-        </div>
+            </article>
+        </section>
 
-        <div class="service-1">
+        <!-- div → section -->
+        <section class="service-1">
             <button class="inative-btn">Click</button>
-            <div class="img-service-1">
+            <!-- div → figure (container de imagem) -->
+            <figure class="img-service-1">
                 <img src="" alt="">
-            </div>
-            <div class="service-info">
+            </figure>
+            <!-- div → article (bloco de conteúdo) -->
+            <article class="service-info">
                 <h1>SERVICE 1</h1>
-                <div class="numbers">
+                <!-- div → aside (informação complementar - números) -->
+                <aside class="numbers">
                     <p>5%</p>
                     <p>10%</p>
                     <p>25%</p>
-                </div>
+                </aside>
                 <p>lorem</p>
                 <p>lorem</p>
                 <p>lorem</p>
-            </div>
-        </div>
+            </article>
+        </section>
 
-        <div class="service-2">
+        <!-- div → section -->
+        <section class="service-2">
             <button class="inative-btn">Click</button>
-            <div class="img-service-2">
+            <!-- div → figure (container de imagem) -->
+            <figure class="img-service-2">
                 <img src="" alt="">
-            </div>
-            <div class="service2-info">
+            </figure>
+            <!-- div → article (bloco de conteúdo) -->
+            <article class="service2-info">
                 <h1>SERVICE 2</h1>
                 <div class="service2-text">
                     <h2>SLA:</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus deserunt culpa hic voluptate rerum, blanditiis, tenetur rem consequuntur</p>
                 </div>
-                <div class="service2-numbers">
+                <!-- div → aside (informação complementar - números) -->
+                <aside class="service2-numbers">
                     <p>88%</p>
-                </div>
+                </aside>
                 <p>lorem</p>
-            </div>
-        </div>
+            </article>
+        </section>
 
-        <div class="service-3">
+        <!-- div → section -->
+        <section class="service-3">
             <button class="inative-btn">Click</button>
             <h1>SERVICE 3</h1>
-            <div class="service-3-img">
+            <!-- div → figure (container de imagem) -->
+            <figure class="service-3-img">
                 <img src="" alt="service3">
-            </div>
-            <button>BUY </button> <!--text for test-->
-        </div>
+            </figure>
+            <button>BUY </button>
+        </section>
 
-        <div class="contact-us">
+        <!-- div → section -->
+        <section class="contact-us">
             <!--estou vendo-->
-        </div>
+        </section>
     </main>
+
     <footer>
 
     </footer>
+    
     <script src="script.js"></script>
 </body>
 </html>
