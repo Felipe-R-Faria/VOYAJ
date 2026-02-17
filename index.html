@@ -5,17 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <!-- div → section -->
         <section class="inative">
-            <!-- div → figure (container de imagens) -->
+
+            <img src="./img/ChatGPT Image 17 de fev. de 2026, 15_59_58.png" alt="logo" class="logo">
             <figure class="inative-img">
-                <img src="" alt="img1">
-                <img src="" alt="img2">
-                <img src="" alt="img3">
-                <!-- div → nav (elemento de navegação) -->
+                <img src="./img/reynier-carl-kqZH-B7IX7o-unsplash.jpg" alt="img1" class="main">
+                <img src="./img/peter-hansen-MeGmdPNe36w-unsplash.jpg" alt="img2">
+                <img src="./img/georgy-trofimov-xEJoSsDCnR8-unsplash.jpg" alt="img3">
+
                 <nav class="nav-intave-img">
                     <!-- div → span (elementos inline) -->
                     <span class="bolinhas"></span>
@@ -23,11 +26,11 @@
                     <span class="bolinhas"></span>
                 </nav>
             </figure>
-            <!-- removido wrapper div desnecessário -->
-            <button class="btn-inative-right">></button>
-            <!-- removido wrapper div desnecessário -->
-            <button class="btn-inative-left">></button>
-            <button class="inative-btn">Click</button>
+            <div class="btn-inative">
+                <button class="btn-inative-right"><p><</p></button>
+                <button class="btn-inative-left"><p>></p></button>
+            </div>
+            <button class="inative-btn-main">Click</button>
         </section>
 
         <!-- div → section -->
@@ -41,14 +44,6 @@
                     <li>CONTACT US</li>
                 </ul>
             </nav>
-
-            <!-- div → figure (container de imagens) -->
-            <figure class="active-img">
-                <img src="" alt="img1">
-                <img src="" alt="img2">
-                <img src="" alt="img3">
-                <button class="active-btn">MORE</button>
-            </figure>
         </section>
     </header>
 
@@ -59,7 +54,6 @@
             <figure class="background">
                 <img src="" alt="img-main">
             </figure>
-            <button class="inative-btn">Click</button>
             <!-- div → aside (informação complementar) -->
             <aside class="porcentagem-info">
                 <h4>50%</h4>
@@ -74,20 +68,22 @@
             </article>
         </section>
         <!------------------------------------------------------------------------------------NICOLLAS-FIM----------------------------------------------------------------------------------->
-        <!-- div → section -->
+        
         <section class="img-2">
-            <button class="inative-btn">Click</button>
-            <!-- div → figure (container de imagem) -->
+            
             <figure class="main-img">
-                <img src="" alt="main-img">
+                <img src="./img/steinar-engeland-VKlIQTmJfVY-unsplash.jpg" alt="main-img">
             </figure>
-            <marquee behavior="scroll" direction="left"><img src="./img/airplane-3-svgrepo-com.svg" alt="airplane">TEXTO</marquee>
-            <marquee behavior="scroll" direction="right"><img src="./img/airplane-3-svgrepo-com.svg" alt="airplane">TEXTO</marquee>
+            <div class="slide">
+                <marquee behavior="scroll" direction="left"><img src="./img/passenger-ship-svgrepo-com.svg" alt="airplane"><p>TEXTO</p></marquee>
+                <marquee behavior="scroll" direction="right"><img src="./img/passenger-ship-svgrepo-com.svg" alt="airplane" class="right">TEXTO</marquee>
+            </div>
+            
         </section>
 
         <!------------------------------------------------------------------------------------NICOLLAS----------------------------------------------------------------------------------->
         <section class="service">
-            <button class="inative-btn">Click</button>
+            
             <!-- div → figure (container de imagem) -->
             <figure class="img-service">
                 <img src="" alt="">
@@ -106,7 +102,7 @@
 
         <!------------------------------------------------------------------------------------NICOLLAS----------------------------------------------------------------------------------->
         <section class="service-1">
-            <button class="inative-btn">Click</button>
+            
             <!-- div → figure (container de imagem) -->
             <figure class="img-service-1">
                 <img src="" alt="">
@@ -128,7 +124,7 @@
         <!------------------------------------------------------------------------------------NICOLLAS-FIM----------------------------------------------------------------------------------->
         <!-- div → section -->
         <section class="service-2">
-            <button class="inative-btn">Click</button>
+            
             <!-- div → figure (container de imagem) -->
             <figure class="img-service-2">
                 <img src="" alt="">
@@ -150,7 +146,7 @@
 
         <!-- div → section -->
         <section class="service-3">
-            <button class="inative-btn">Click</button>
+            
             <h1>SERVICE 3</h1>
             <!-- div → figure (container de imagem) -->
             <figure class="service-3-img">
@@ -168,7 +164,7 @@
 
     <!------------------------------------------------------------------------------------NICOLLAS----------------------------------------------------------------------------------->
     <footer>
-        
+
     </footer>
     <!------------------------------------------------------------------------------------NICOLLAS-FIM----------------------------------------------------------------------------------->
     <script src="script.js"></script>
