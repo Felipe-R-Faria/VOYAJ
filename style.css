@@ -165,59 +165,78 @@ body{
 }
 
 
-.img-2{
-    border: 1px solid;
-    width: 100%;
-    height: 100vh;
-    
-    background: #99f7f7;
-    background: linear-gradient(172deg, rgba(153, 247, 247, 1) 0%, rgba(19, 105, 125, 1) 100%);
-}
-
-.main-img{
-    position: relative;
-    left: 15%;
-    top: 15%;
-
-    border: 1px solid;
-    width: 70%;
-    height: 75%;
-    overflow: hidden;
-    border-radius: 15px;
+.img-2 {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(172deg, rgba(153, 247, 247, 1) 0%, rgba(19, 105, 125, 1) 100%);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-img img{
-    width: 100%;
-    height: 100%;
-    
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 15px;
 }
 
-.slide{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.main-img {
     border: 1px solid;
-    height: 100%;
-    gap:40pc;
-    top: -75%;
-    text-align: center;
-    
+  width: 80%;
+  height: 80%;
+  overflow: hidden;
+  border-radius: 15px;
+}
+/**/
+
+.slide {
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 43pc;
 }
 
-.slide img{
-    width: 190px;
-    
+.marquee-track {
+  width: 100%;
+  overflow: hidden;
 }
 
-.right{
-    transform: rotateY(3.142rad);
-    margin-bottom: 100px;
-    
+.marquee-content {
+  display:inline-flex;
+  gap: 40px;
+  font-family: 'Courier New', monospace;
+  font-size: 3rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  
+
 }
 
-marquee p{
-    text-align: center;
-    font-size: 100px;
+.marquee-content img{
+    width: 40px;
+}
+
+.marquee-content.left {
+    position: relative;
+    animation: scroll-left 17s linear infinite ;
+}
+
+.marquee-content.right {
+  animation: scroll-right 18s linear infinite;
+}
+
+@keyframes scroll-left {
+  from { transform: translateX(220%); }
+  to   { transform: translateX(-50%); }
+}
+
+@keyframes scroll-right {
+  from { transform: translateX(-50%); }
+  to   { transform: translateX(220%); }
 }
