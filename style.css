@@ -257,7 +257,12 @@ body{
 
 .img-service-2 img{
     width: 100%;
-    
+    transition: 0.64s ease-in-out;
+}
+
+.img-service-2 img:hover{
+    scale: 1.3;
+    transition: 0.54s ease-in;
 }
 
 .img-service-2{
@@ -325,4 +330,71 @@ body{
     border: px solid;
     border-bottom:1px solid black ;
     border-width: 2px;
+}
+
+
+.service-3{
+    position: absolute;
+    overflow: hidden;
+    border: 0px solid whitesmoke;
+    border-top: 1px solid rgba(207, 206, 206, 0.274);
+    border-width: 2px;
+    width: 100%;
+    height: 100vh;
+    background: #e1f0f0;
+    background: linear-gradient(110deg, rgba(225, 240, 240, 1) 0%, rgba(19, 105, 125, 1) 100%);
+}
+
+.service-3 h1{
+    position: absolute;
+    left: 43%;
+    display: flex;
+  
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 100px;
+    z-index: 2;
+}
+
+.service-3 button{
+    position: absolute;
+    bottom: 20%;
+    left: 46%;
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    z-index: 3;
+    transition: 0.36s ease-in;
+}
+
+.service-3 button:hover{
+    box-shadow: 0px 0px 10px 0px whitesmoke;
+    transition: 0.36s ease-in-out;
+    scale: 1.1;
+    font-size: 25px;
+    color: #36d4fce3;
+}
+
+.service-3-img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    width: 100%;
+    height: 100%;
+
+    border-radius: 15px;
+    overflow: hidden;
+    
+    
+}
+
+.service-3-img img{
+    width: 100%;
+    z-index: 1;
 }
