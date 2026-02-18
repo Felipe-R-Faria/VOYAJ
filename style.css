@@ -3,7 +3,6 @@
     box-sizing: border-box;
     margin: 0;
     font-family: var(--font_main);
-    color: rgb(0, 0, 0);
     scroll-behavior: smooth;
     scrollbar-width: none;
 }
@@ -399,4 +398,191 @@ body{
 .service-3-img img{
     width: 100%;
     z-index: 1;
+}
+
+
+.contact-us {
+  margin-top: 800px;
+  background: url('./img/kristin-snippe-f2zV4ssYaJ4-unsplash.jpg') center/cover no-repeat fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;     
+  align-items: center;
+  position: relative;
+  padding: 0;                     
+}
+
+.contact-us::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 1;
+}
+
+
+.contact-title {
+  position: relative;
+  z-index: 2;
+  font-size: 5.5rem;             
+  font-weight: bold;
+  letter-spacing: 12px;
+  color: #7bd2e4;
+  text-shadow: 0 0 30px rgba(7, 146, 156, 0.8);
+  margin: 80px 0 100px 0;          
+  padding-top: 40px;               
+}
+
+
+.contact-card {
+  background: rgba(0, 0, 0, 0.92);
+  border: 2px solid #00b4d8;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 420px;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;                     
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.8);
+  color: #00b4d8;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  margin-bottom: 200px;   
+}
+/* Âncora */
+.anchor-icon {
+  width: 300px;
+  height: 200px;
+  object-fit: contain;
+  image-rendering: pixelated;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.anchor-icon:hover {
+  transform: scale(1.35) rotate(10deg); 
+  filter: drop-shadow(0 0 25px #00b4d8) brightness(1.4);
+}
+
+/* Links de contato */
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  text-decoration: none;
+  color: #ffd700;
+  font-size: 1.8rem;
+  width: 100%;
+  max-width: 320px;
+  transition: all 0.3s;
+}
+
+.contact-item:hover {
+  color: white;
+  transform: scale(1.05);
+}
+
+.contact-icon {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+
+.footer-pixel {
+  background: #0f1c2e;           
+  padding: 60px 20px 40px;
+  text-align: center;
+  border-top: 4px solid #00b4d8; 
+  font-family: "VT323", monospace;
+  color: #e0f7ff;                
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer-logo .logo-big2 {
+  width: 220px;                 
+  image-rendering: pixelated;    
+  filter: drop-shadow(0 0 10px rgba(0, 180, 216, 0.5)); 
+  transition: transform 0.3s ease;
+}
+
+.footer-logo .logo-big2:hover {
+  transform: scale(1.08);
+}
+
+
+
+.footer-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-nav a {
+  color: #ade8f4;
+  text-decoration: none;
+  font-size: 1.6rem;
+  letter-spacing: 2px;
+  padding: 8px 16px;
+  border-radius: 12px;
+  transition: all 0.25s;
+}
+
+.footer-nav a:hover {
+  background: rgba(0, 180, 216, 0.2);
+  color: white;
+  transform: translateY(-3px);
+}
+
+.social-icons {
+  display: flex;
+  gap: 25px;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  image-rendering: pixelated;
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.social-icons a:hover img {
+  transform: scale(1.3);
+  filter: brightness(1.3) drop-shadow(0 0 8px #00b4d8);
+}
+
+.copyright {
+  margin-top: 20px;
+  font-size: 1.3rem;
+  opacity: 0.8;
+}
+
+.copyright p {
+  margin: 6px 0;
 }

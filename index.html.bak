@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <section class="inative" id="home">
+        <section class="inative">
 
             <img src="./img/ChatGPT Image 17 de fev. de 2026, 15_59_58.png" alt="logo" class="logo">
             <figure class="inative-img">
@@ -113,7 +113,7 @@
         </section>
 
         <!------------------------------------------------------------------------------------NICOLLAS----------------------------------------------------------------------------------->
-        <section class="service" id="services">
+        <section class="service">
 
             <!-- div → figure (container de imagem) -->
             <figure class="img-service">
@@ -188,68 +188,19 @@
             <button>CONTRACT</button>
         </section>
 
-
         <!------------------------------------------------------------------------------------NICOLLAS----------------------------------------------------------------------------------->
-<section class="contact-us" id="contact">
-    <h1 class="contact-title">CONTACT US:</h1>
-  <div class="contact-card">
-    <img src="./img/ancora-removebg-preview.png" alt="Âncora" class="anchor-icon">
+        <section class="contact-us">
 
-    <div class="contact-links">
-      <a href="mailto:contato@voyaj.com?subject=Contato%20VOYAJ" class="contact-item">
-        <img src="./img/gmail.png" alt="Email" class="contact-icon">
-        <span>contato@voyaj.com</span>
-      </a>
-
-      <a href="https://wa.me/+5511981396465?text=Olá%20VOYAJ!" class="contact-item">
-        <img src="./img/whatsapp.png" alt="WhatsApp" class="contact-icon">
-        <span>+55 (11) 98139-6465</span>
-      </a>
-    </div>
-  </div>
-</section>
+        </section>
         <!------------------------------------------------------------------------------------NICOLLAS-FIM------------------------------------------------------------------------------->
     </main>
 
     <!------------------------------------------------------------------------------------NICOLLAS----------------------------------------------------------------------------------->
-      <footer>
-     <footer class="footer-pixel">
-  <div class="footer-container">
-    <!-- Logo grande -->
-    <div class="footer-logo">
-      <img src="./img/ChatGPT Image 17 de fev. de 2026, 15_59_58.png" alt="VOYAJ Logo2" class="logo-big2">
-    </div>
+    <footer>
 
-    <!-- Links de navegação....? n sei se precisa -->
-    <nav class="footer-nav">
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#services">Services</a></li> 
-        <li><a href="#contact">Contact Us</a></li>
-      </ul>
-    </nav>
-
-    <!-- icones sociais  -->
-    <div class="social-icons">
-      <a href="https://github.com/Felipe-R-Faria/VOYAJ" target="_blank" aria-label="Github">
-        <img src="./img/github.svg" alt="Git">
-      </a>
-      <a href="https://instagram.com" target="_blank" aria-label="Instagram">
-        <img src="./img/—Pngtree—instagram icon instagram logo vector_3584852.png" alt="Insta">
-      </a>
-      <a href="#" target="_blank" aria-label="YouTube">
-        <img src="./img/youtube.png" alt="YT">
-      </a>
-      <!-- se quiser adc mais  -->
-    </div>
-
-    <!-- Copyright ? n sei se precisa disso -->
-    <div class="copyright">
-      <p>© 2026 VOYAJ — Navigate your dreams - Direitos Reservados</p>
-    </div>
-  </div>
-</footer>
+    </footer>
     <!------------------------------------------------------------------------------------NICOLLAS-FIM----------------------------------------------------------------------------------->
     <script src="script.js"></script>
 </body>
+
 </html>
