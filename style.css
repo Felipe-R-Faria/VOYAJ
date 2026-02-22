@@ -198,6 +198,94 @@ body {
     background: #f0f0f0;
 }
 
+.img-1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px 20px;
+    overflow: hidden;
+    color: #e0f7ff;
+}
+
+/* Imagem de fundo (hero) */
+.img-1 .background {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+}
+
+.img-1 .background img {
+    width: 100%;
+    height: 95%;
+    object-fit: cover;
+}
+
+
+.img-1::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(10, 31, 63, 0.5) 0%,
+        rgba(0, 180, 216, 0.3) 50%,
+        rgba(10, 31, 63, 0.6) 100%
+    );
+    z-index: 2;
+}
+
+
+.img-1 > * {
+    position: relative;
+    z-index: 3;
+}
+
+
+.porcentagem-info {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.porcentagem-info h4 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #ffffff;
+   
+    margin: 0;
+    line-height: 1;
+}
+
+
+
+.text-img-1 {
+    max-width: 900px;
+    padding: 0 20px;
+}
+
+.text-img-1 h1 {
+    font-size: 5.5rem;
+    margin-bottom: 20px;
+    color: #7bd2e4;
+    letter-spacing: 6px;
+}
+
+.text-img-1 h4 {
+    font-size: 2.8rem;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.text-img-1 p {
+    font-size: 1.6rem;
+    margin-bottom: 40px;
+}
+
 
 .img-2 {
     width: 100%;
@@ -876,7 +964,7 @@ margin-bottom: 20px;
 .info-box h2 {
     font-size: 1.8rem;
     margin-bottom: 15px;
-    color: #00b4d8; 
+    color: #7bd2e4;
 }
 
 .info-box p {
