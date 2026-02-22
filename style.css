@@ -5,6 +5,7 @@
     font-family: var(--font_main);
     scroll-behavior: smooth;
     scrollbar-width: none;
+    
 }
 
 :root {
@@ -750,7 +751,7 @@ margin-bottom: 20px;
     max-width: 260px;
 }
 
-/* Status badge */
+
 .s2-status-badge {
     display: inline-flex;
     align-items: center;
@@ -777,13 +778,17 @@ margin-bottom: 20px;
     50% { opacity: 0.4; transform: scale(0.8); }
 }
 
-/* Features list */
+
 .s2-features {
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 8px;
     margin-top: 4px;
+}
+
+.s2-features li {
+    color: black;
 }
 
 .s2-feature-item {
@@ -809,7 +814,7 @@ margin-bottom: 20px;
     flex-shrink: 0;
 }
 
-/* Numbers / metrics */
+
 .service2-numbers {
     position: absolute;
     top: 320px;
