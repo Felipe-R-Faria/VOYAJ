@@ -290,6 +290,9 @@ body {
   background: #1f1f1f;
   text-align: center;
   color: #ffffff;
+  background-image:url(img/tropical2.jpg);
+  background-size: cover;       /* Cobre toda a seção */
+  background-position: center;  /* Centraliza a imagem */
 }
 .services, main, .service-section {
  background: linear-gradient(89deg, rgb(170, 190, 190) 0%, rgba(19, 105, 125, 1) 100%);
