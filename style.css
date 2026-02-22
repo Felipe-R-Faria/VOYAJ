@@ -427,6 +427,7 @@ margin: 40px auto;
 max-width: 1200px;
 box-shadow:0 10px 30px rgba(145, 193, 202, 0.2);
 
+
 }
 
 .img-service-1{
@@ -579,7 +580,7 @@ margin-bottom: 20px;
    padding-left: 100px;
    border-right:1px solid rgb(0, 0, 0) ;
    border-width: 2px;
-   color: #848788;}
+   color: #ffffff;}
    
 .service2-info h1 {
     font-size: 90px;
@@ -796,6 +797,9 @@ margin-bottom: 20px;
     background: #e1f0f0;
     background: linear-gradient(110deg, rgba(225, 240, 240, 1) 0%, rgba(19, 105, 125, 1) 100%);
 }
+/* Estilos para as caixas de informação na service-3 */
+
+
 
 .service-3 h1 {
     position: absolute;
@@ -803,8 +807,7 @@ margin-bottom: 20px;
     display: flex;
 
     text-align: center;
-    color: rgb(210, 246, 255);
-    text-shadow: 0px 0px 10px rgba(145, 252, 247, 0.596);
+    color: #ffff;
     font-weight: 700;
     font-style: italic;
     font-size: 200px;
@@ -813,8 +816,8 @@ margin-bottom: 20px;
 
 .service-3 button {
     position: absolute;
-    bottom: 20%;
-    left: 46%;
+    bottom: 32%;
+    left: 39%;
     width: 150px;
     height: 40px;
     border-radius: 25px;
@@ -822,14 +825,6 @@ margin-bottom: 20px;
     font-size: 20px;
     z-index: 3;
     transition: 0.36s ease-in;
-}
-
-.service-3 button:hover {
-    box-shadow: 0px 0px 10px 0px whitesmoke;
-    transition: 0.36s ease-in-out;
-    scale: 1.1;
-    font-size: 25px;
-    color: #36d4fce3;
 }
 
 .service-3-img {
@@ -851,6 +846,57 @@ margin-bottom: 20px;
     width: 100%;
     z-index: 1;
 }
+
+
+
+.info-box {
+    position: absolute;
+    z-index: 2;
+    width: 300px;
+    background: rgba(0, 0, 0, 0.7); 
+    border-radius: 15px;
+    padding: 25px;
+    color: white;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    top: 50%; 
+    transform: translateY(-50%);
+
+}
+
+.left-box {
+    left: 18.5%; 
+  
+}
+
+.right-box {
+    right: 15%; 
+    
+}
+
+.info-box h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #00b4d8; 
+}
+
+.info-box p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.info-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.info-box li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+
+
+
 
 
 .contact-us {
@@ -1039,3 +1085,4 @@ margin-bottom: 20px;
 .copyright p {
     margin: 6px 0;
 }
+
